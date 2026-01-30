@@ -78,7 +78,7 @@ Sources for the textual apparatuses are credited within the application interfac
 ## Citation, License, and Attribution
 
 
-If this software is used in research, teaching materials, digital editions, or publications, please cite it using the metadata in `CITATION.cff`.
+This project may be cited when it plays a substantive role in research, teaching materials, digital editions, or scholarly workflows. If citation is appropriate, please use the metadata in `citation.cff`.
 
 
 GitHub automatically provides a citation format via the **“Cite this repository”** button.
