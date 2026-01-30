@@ -63,6 +63,64 @@ No server, build process, or dependencies are required.
 
 ---
 
-
 ## Known Limitations
-It may be freely incorporated into scholarly projects, teaching tools, and digital editions with proper attribution.
+
+
+Some sigla rely on glyphs that are not consistently supported across existing Unicode fonts:
+
+
+- **Metobulus**: the NE-pointing arrow glyph is not currently available in standard Unicode fonts. No widely supported font has been identified that reliably renders this symbol.
+
+
+- **Sigla meaning**: “Reference to or evidence in the lower apparatus of the critical edition” — the relevant glyph is likewise not currently supported in standard fonts. No stable font solution has yet been identified.
+
+
+These are typographic and font-coverage limitations rather than data or encoding errors.
+
+
+---
+
+
+## Data Sources
+
+
+Sources for the textual apparatuses are credited within the application interface.
+
+
+---
+
+
+## Citation
+
+
+If this software is used in research, teaching materials, digital editions, or publications, please cite it using the metadata in `citation.cff`.
+
+
+GitHub automatically provides a citation format via the **“Cite this repository”** button.
+
+
+---
+
+
+## License
+
+
+This project is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+
+Reuse, modification, and redistribution are permitted with attribution.
+
+
+---
+
+
+## Attribution
+
+
+Proper attribution should include:
+
+
+- Author name: **Nina Maksimova**
+- Project title: **Text Critical Apparatus Sigla Lookup**
+- Source repository URL
+- License: **CC BY 4.0**
