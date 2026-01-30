@@ -90,7 +90,7 @@ Sources for the textual apparatuses are credited within the application interfac
 ---
 
 
-## Citation
+## Citation, License, and Attribution
 
 
 If this software is used in research, teaching materials, digital editions, or publications, please cite it using the metadata in `citation.cff`.
@@ -99,26 +99,10 @@ If this software is used in research, teaching materials, digital editions, or p
 GitHub automatically provides a citation format via the **“Cite this repository”** button.
 
 
----
-
-
-## License
-
-
 This project is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
 
-Reuse, modification, and redistribution are permitted with attribution.
-
-
----
-
-
-## Attribution
-
-
-Proper attribution should include:
-
+Reuse, modification, and redistribution are permitted with attribution, which should include:
 
 - Author name: **Nina Maksimova**
 - Project title: **Text Critical Apparatus Sigla Lookup**
