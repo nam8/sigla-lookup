@@ -20,30 +20,15 @@ This project provides a simple, fast, browser-based interface for looking up sig
 ## Purpose
 
 
-Critical apparatus sigla are essential for textual criticism but often difficult to access quickly, especially across multiple traditions and editions. This tool centralizes reference information in a searchable interface to support:
-
-
-- textual analysis
-- manuscript studies
-- philological research
-- apparatus interpretation
-- teaching and pedagogy
-- digital editions
-- reproducible research workflows
-
-
----
-
-
-## Features
+Critical apparatus sigla are essential for textual criticism but often difficult to access quickly, especially across multiple traditions and editions. This tool centralizes reference information in a searchable interface. Its features include: 
 
 
 - Unified search across NA28, Göttingen, and BHS
-- Search by siglum, meaning, or keyword
+- Searches by siglum, meaning, or keyword
 - Source tagging by apparatus tradition
 - Unicode-aware rendering
-- Browser-based (no installation required)
-- Lightweight, offline-capable
+- Browser-based setup (no installation required)
+- Lightweight, offline-compatible workflow
 
 
 ---
