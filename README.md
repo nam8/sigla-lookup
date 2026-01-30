@@ -93,7 +93,7 @@ Sources for the textual apparatuses are credited within the application interfac
 ## Citation, License, and Attribution
 
 
-If this software is used in research, teaching materials, digital editions, or publications, please cite it using the metadata in `citation.cff`.
+If this software is used in research, teaching materials, digital editions, or publications, please cite it using the metadata in `CITATION.cff`.
 
 
 GitHub automatically provides a citation format via the **“Cite this repository”** button.
