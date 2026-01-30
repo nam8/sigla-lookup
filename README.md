@@ -48,7 +48,7 @@ No server, build process, or dependencies are required.
 
 ---
 
-## Known Limitations
+## Known Issues
 
 
 Some sigla rely on glyphs that are not consistently supported across existing Unicode fonts:
@@ -61,6 +61,8 @@ Some sigla rely on glyphs that are not consistently supported across existing Un
 
 
 These are typographic and font-coverage limitations rather than data or encoding errors.
+
+If you notice any inaccuracies or errors, please contact the repo owner. 
 
 
 ---
