@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Text Critical Apparatus Sigla Lookup"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+- family-names: Maksimova
+given-names: Nina
+affiliation: "Research Fellow in Biblical Studies, Literary Analysis and Software Engineering, University of St Andrews"
+version: "1.0.0"
+date-released: 2026-01-30
+license: CC-BY-4.0
+repository-code: "https://github.com/nam8/sigla-lookup"
+keywords:
+- textual criticism
+- biblical studies
+- critical apparatus
+- sigla
+- digital humanities
+- research tools
+abstract: "A lightweight web application for searching and interpreting sigla used in major biblical critical apparatuses (NA28, Göttingen, BHS)."
