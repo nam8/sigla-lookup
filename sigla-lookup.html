@@ -1932,7 +1932,7 @@ JVBERi0xLjMNJeLjz9MNCjEyOCAwIG9iag08PC9MaW5lYXJpemVkIDEvTCA2MzczMjAvTyAxMzAvRSAy
           .map(
             (item, idx) => `
         <div class="card">
-          <div class="siglum-display">${escapeHtml(item.siglum)}</div>
+          <div class="siglum-display">${escapeHtml(forceTextPresentation(item.siglum))}</div>
           <div class="meaning-text">${escapeHtml(item.meaning)}</div>
           ${item.unicode ? `<div class="unicode-info">Unicode: U+${escapeHtml(item.unicode)}</div>` : ""}
           <div class="tags-row">
@@ -1942,6 +1942,10 @@ JVBERi0xLjMNJeLjz9MNCjEyOCAwIG9iag08PC9MaW5lYXJpemVkIDEvTCA2MzczMjAvTyAxMzAvRSAy
       `,
           )
           .join("");
+      }
+
+      function forceTextPresentation(str) {
+        return str + "\uFE0E";
       }
 
       function escapeHtml(text) {
