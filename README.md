@@ -26,7 +26,6 @@ Critical apparatus sigla are essential for textual criticism but often difficult
 - Unified search across NA28, Göttingen, and BHS
 - Searches by siglum, meaning, or keyword
 - Source tagging by apparatus tradition
-- Unicode-aware rendering
 - Browser-based setup (no installation required)
 - Lightweight, offline-compatible workflow
 
