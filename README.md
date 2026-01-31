@@ -1,20 +1,18 @@
 ## Text Critical Apparatus Sigla Lookup
 
-A lightweight research tool for searching and interpreting sigla used in major biblical critical apparatuses, including:
+An open-source digital humanities tool for searching and interpreting sigla used in major biblical critical apparatuses, including:
 
 - Nestle-Aland 28 (NA28)
 - Göttingen Septuagint
 - Biblia Hebraica Stuttgartensia (BHS)
 
-This project provides a simple, fast, browser-based interface for looking up text critical apparatus sigla, their meanings, and their source traditions, designed for use in research, teaching, and digital humanities workflows. Its features include: 
+This project supports:
 
 - Unified search across NA28, Göttingen, and BHS
 - Searches by siglum, meaning, or keyword
 - Source tagging by apparatus tradition
 - Browser-based setup (no installation required)
 - Lightweight, offline-compatible workflow
-
----
 
 ## Usage
 
@@ -29,8 +27,6 @@ Alternatively:
 
 No server, build process, or dependencies are required.
 
----
-
 
 ## Data 
 
@@ -38,9 +34,6 @@ No server, build process, or dependencies are required.
 Sources for the textual apparatuses are credited within the application interface.
 
 If you notice any inaccuracies or errors, please contact the repo owner.
-
-
----
 
 
 ## Citation, License, and Attribution
