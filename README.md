@@ -9,7 +9,7 @@ An open-source digital humanities tool for searching and interpreting sigla used
 This tool supports:
 
 - Unified search across NA28, Göttingen, and BHS
-- Searches by siglum, meaning, or keyword
+- Searches by siglum, meaning, keyword, or Unicode character
 - Source tagging by apparatus tradition
 - Browser-based setup (no installation required)
 - Lightweight, offline-compatible workflow
