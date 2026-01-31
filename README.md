@@ -1,4 +1,4 @@
-## Text Critical Apparatus Sigla Lookup
+## Siglarium
 
 An open-source digital humanities tool for searching and interpreting sigla used in major biblical critical apparatuses, including:
 
@@ -45,6 +45,6 @@ This project may be cited when it plays a substantive role in research, teaching
 This project is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). Reuse, modification, and redistribution are permitted with attribution, which should include:
 
 - Author name: **Nina Maksimova**
-- Project title: **Text Critical Apparatus Sigla Lookup**
+- Project title: **Siglarium**
 - Source repository URL
 - License: **CC BY 4.0**
