@@ -18,7 +18,7 @@ This tool supports:
 
 Open https://nam8.github.io/sigla-lookup/sigla-lookup.html (tested in Chrome and Safari). 
 
-Alternatively:
+Alternatively, for offline access:
 
 1. Download or clone the repository.
 2. Open the HTML file in a web browser:
