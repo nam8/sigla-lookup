@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Siglarium: Text Critical Apparatus Sigla Lookup"
+title: "Siglarium"
 message: "If you use this software, please cite it as below."
 type: software
 authors:
@@ -17,4 +17,4 @@ keywords:
 - sigla
 - digital humanities
 - research tools
-abstract: "A lightweight web application for searching and interpreting sigla used in major biblical critical apparatuses (NA28, Göttingen, BHS)."
+abstract: "An open-source web application for searching and interpreting sigla used in major biblical critical apparatuses (NA28, Göttingen, BHS)."
