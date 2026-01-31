@@ -1,5 +1,7 @@
 
-## Text Critical Apparatus Sigla Lookup: https://nam8.github.io/sigla-lookup/sigla-lookup.html
+## Text Critical Apparatus Sigla Lookup
+
+## https://nam8.github.io/sigla-lookup/sigla-lookup.html
 
 
 
