@@ -35,7 +35,7 @@ Critical apparatus sigla are essential for textual criticism but often difficult
 
 ## Usage
 
-Open https://nam8.github.io/sigla-lookup/sigla-lookup.html (tested in Chrome or Safari). 
+Open https://nam8.github.io/sigla-lookup/sigla-lookup.html (tested in Chrome and Safari). 
 
 Alternatively:
 
