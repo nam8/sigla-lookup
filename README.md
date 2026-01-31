@@ -6,7 +6,7 @@ An open-source digital humanities tool for searching and interpreting sigla used
 - Göttingen Septuagint
 - Biblia Hebraica Stuttgartensia (BHS)
 
-This project supports:
+This tool supports:
 
 - Unified search across NA28, Göttingen, and BHS
 - Searches by siglum, meaning, or keyword
