@@ -16,7 +16,7 @@ This tool supports:
 
 ## Usage
 
-Open https://nam8.github.io/sigla-lookup/sigla-lookup.html (tested in Chrome and Safari). 
+Open https://nam8.github.io/sigla-lookup/siglarium.html (tested in Chrome and Safari). 
 
 Alternatively, for offline access:
 
