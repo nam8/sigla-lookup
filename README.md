@@ -1,4 +1,4 @@
-## Siglarium
+## SIGLARIUM
 
 Siglarium is an open-source digital humanities tool for searching and interpreting sigla used in major biblical critical apparatuses, including:
 
