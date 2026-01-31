@@ -45,22 +45,7 @@ Critical apparatus sigla are essential for textual criticism but often difficult
 
 No server, build process, or dependencies are required.
 
-
----
-
-## Known Issues
-
-
-Some sigla rely on glyphs that we have not yet located in Unicode:
-
-- **Metobelus**: the NE-pointing arrow glyph.
-
-
-- **Sigla meaning**: “Reference to or evidence in the lower apparatus of the critical edition” — the relevant glyph.
-
-
-If you notice any inaccuracies or errors, please contact the repo owner. 
-
+If you notice any inaccuracies or errors, please contact the repo owner.
 
 ---
 
