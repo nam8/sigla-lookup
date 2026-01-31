@@ -29,6 +29,19 @@
         --transition: color 0.3s ease, border-color 0.3s ease;
       }
 
+      html.theme-light {
+        --bg-primary: #f5ecdf;
+        --bg-dark: #e6d6bf;
+        --text-primary: #1b140c;
+        --text-secondary: #3d2e1c;
+        --text-muted: #6b5a42;
+        --accent: #118e3f;
+        --border: #bfa37f;
+        --surface-elevated: rgba(0, 0, 0, 0.05);
+        --surface-hover: rgba(0, 0, 0, 0.1);
+      }
+
+
       * {
         box-sizing: border-box;
         margin: 0;
@@ -316,6 +329,100 @@
     display: none; /* Hide on mobile to save space; users can scroll to bottom or access via tabs */
   }
 }
+
+      
+      .theme-section {
+        margin-top: 1.5rem;
+        padding-top: 1rem;
+        border-top: 1px solid var(--border);
+      }
+
+      .theme-toggle {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+      }
+
+      .theme-label {
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        font-weight: 500;
+      }
+
+      /* .theme-label:first-of-type {
+        min-width: 2.5rem;
+      } */
+
+      .toggle-switch {
+        position: relative;
+        display: inline-block;
+        width: 52px;
+        height: 28px;
+        flex-shrink: 0;
+      }
+
+      .toggle-switch input {
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        margin: 0;
+        cursor: pointer;
+        z-index: 1;
+      }
+
+      .toggle-track {
+        position: absolute;
+        inset: 0;
+        background: var(--accent);
+        border: 2px solid var(--accent);
+        border-radius: 14px;
+        transition:
+          background 0.2s ease,
+          border-color 0.2s ease;
+      }
+
+      .toggle-track::after {
+        content: "";
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: 18px;
+        height: 18px;
+        background: var(--bg-primary);
+        border-radius: 50%;
+        transition:
+          transform 0.2s ease,
+          background 0.2s ease;
+      }
+
+      /* Hover */
+      .toggle-switch:hover .toggle-track {
+        border-color: var(--text-secondary);
+      }
+
+      /* Focus for keyboard users */
+      .toggle-switch input:focus-visible + .toggle-track {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }
+
+      /* Checked = dark mode */
+      .toggle-switch input:checked + .toggle-track {
+        background: var(--accent);
+        border-color: var(--accent);
+      }
+
+      .toggle-switch input:checked + .toggle-track::after {
+        transform: translateX(24px);
+        background: var(--bg-primary);
+      }
+
+      /* Active label highlighting */
+      .theme-label.active {
+        color: var(--accent);
+      }
+      
     </style>
   </head>
   <body>
@@ -383,6 +490,24 @@ JVBERi0xLjMNJeLjz9MNCjEyOCAwIG9iag08PC9MaW5lYXJpemVkIDEvTCA2MzczMjAvTyAxMzAvRSAy
             </div>
           </div>
         </div>
+
+        <div class="theme-section">
+          <div class="theme-toggle">
+            <span class="theme-label" id="label-light">Light</span>
+            <label class="toggle-switch">
+              <input
+                type="checkbox"
+                id="theme-toggle"
+                role="switch"
+                aria-checked="true"
+                aria-labelledby="label-light label-dark"
+              />
+              <span class="toggle-track"></span>
+            </label>
+            <span class="theme-label" id="label-dark">Dark</span>
+          </div>
+        </div>
+        
       </section>
 
       <section class="results-section">
@@ -1971,6 +2096,35 @@ JVBERi0xLjMNJeLjz9MNCjEyOCAwIG9iag08PC9MaW5lYXJpemVkIDEvTCA2MzczMjAvTyAxMzAvRSAy
 
       // Initial render
       renderResults();
+
+      // Theme toggle
+      const themeToggle = document.getElementById("theme-toggle");
+      const labelLight = document.getElementById("label-light");
+      const labelDark = document.getElementById("label-dark");
+
+      function setTheme(isDark) {
+        document.documentElement.classList.toggle("theme-light", !isDark);
+        localStorage.setItem("theme", isDark ? "dark" : "light");
+        themeToggle.setAttribute("aria-checked", isDark);
+
+        // Highlight active label
+        labelLight.classList.toggle("active", !isDark);
+        labelDark.classList.toggle("active", isDark);
+      }
+
+      // Initialize from saved preference or system preference
+      const savedTheme = localStorage.getItem("theme");
+      const prefersDark = window.matchMedia(
+        "(prefers-color-scheme: dark)",
+      ).matches;
+      const isDark = savedTheme ? savedTheme === "dark" : prefersDark;
+      themeToggle.checked = isDark;
+      setTheme(isDark);
+
+      themeToggle.addEventListener("change", (e) => {
+        setTheme(e.target.checked);
+      });
+      
     </script>
   </body>
 </html>
