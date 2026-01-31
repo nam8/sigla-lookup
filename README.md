@@ -1,9 +1,5 @@
-
-## Text Critical Apparatus Sigla Lookup
-
-####  https://nam8.github.io/sigla-lookup/sigla-lookup.html
-
-
+# Text Critical Apparatus Sigla Lookup
+https://nam8.github.io/sigla-lookup/sigla-lookup.html
 
 A lightweight research tool for searching and interpreting sigla used in major biblical critical apparatuses, including:
 
