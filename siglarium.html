@@ -13,7 +13,6 @@
     <style>
       :root {
         --bg-primary: #111211;
-        --bg-dark: #222222;
         --text-primary: #ffffff;
         --text-secondary: #c6c4c4;
         --text-muted: #aaaaaa;
@@ -21,7 +20,6 @@
         --border: #555555;
         --surface-elevated: rgba(255, 255, 255, 0.05);
         --surface-hover: rgba(255, 255, 255, 0.1);
-        --accent-subtle: rgba(160, 221, 160, 0.15);
         --font-sans: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
         --font-serif: "Gentium Plus", Cardo, Georgia, serif;
         --radius-sm: 6px;
@@ -31,7 +29,6 @@
 
       html.theme-light {
         --bg-primary: #f5ecdf;
-        --bg-dark: #e6d6bf;
         --text-primary: #1b140c;
         --text-secondary: #3d2e1c;
         --text-muted: #6b5a42;
@@ -334,10 +331,6 @@
         font-weight: 500;
       }
 
-      /* .theme-label:first-of-type {
-        min-width: 2.5rem;
-      } */
-
       .toggle-switch {
         position: relative;
         display: inline-block;
@@ -381,21 +374,10 @@
           background 0.2s ease;
       }
 
-      /* Hover */
-      .toggle-switch:hover .toggle-track {
-        border-color: var(--text-secondary);
-      }
-
       /* Focus for keyboard users */
       .toggle-switch input:focus-visible + .toggle-track {
         outline: 2px solid var(--accent);
         outline-offset: 2px;
-      }
-
-      /* Checked = dark mode */
-      .toggle-switch input:checked + .toggle-track {
-        background: var(--accent);
-        border-color: var(--accent);
       }
 
       .toggle-switch input:checked + .toggle-track::after {
