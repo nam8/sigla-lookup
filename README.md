@@ -45,15 +45,15 @@ Critical apparatus sigla are essential for textual criticism but often difficult
 
 No server, build process, or dependencies are required.
 
-If you notice any inaccuracies or errors, please contact the repo owner.
-
 ---
 
 
-## Data Sources
+## Data 
 
 
 Sources for the textual apparatuses are credited within the application interface.
+
+If you notice any inaccuracies or errors, please contact the repo owner.
 
 
 ---
