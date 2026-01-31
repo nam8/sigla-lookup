@@ -35,14 +35,14 @@ Critical apparatus sigla are essential for textual criticism but often difficult
 
 ## Usage
 
-Open https://nam8.github.io/sigla-lookup/sigla-lookup.html in Chrome or Safari. 
+Open https://nam8.github.io/sigla-lookup/sigla-lookup.html (tested in Chrome or Safari). 
 
 Alternatively:
 
 1. Download or clone the repository.
 2. Open the HTML file in a web browser:
 - Double-click the file, or
-- Right-click → "Open with" → Chrome, Safari
+- Right-click → "Open with" → Chrome, Safari, etc.
 
 No server, build process, or dependencies are required.
 
