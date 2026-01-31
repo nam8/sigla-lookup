@@ -51,16 +51,13 @@ No server, build process, or dependencies are required.
 ## Known Issues
 
 
-Some sigla rely on glyphs that are not consistently supported across existing Unicode fonts:
+Some sigla rely on glyphs that we have not yet located in Unicode:
+
+- **Metobelus**: the NE-pointing arrow glyph.
 
 
-- **Metobulus**: the NE-pointing arrow glyph is not currently available in standard Unicode fonts. No widely supported font has been identified that reliably renders this symbol.
+- **Sigla meaning**: “Reference to or evidence in the lower apparatus of the critical edition” — the relevant glyph.
 
-
-- **Sigla meaning**: “Reference to or evidence in the lower apparatus of the critical edition” — the relevant glyph is likewise not currently supported in standard fonts. No stable font solution has yet been identified.
-
-
-These are typographic and font-coverage limitations rather than data or encoding errors.
 
 If you notice any inaccuracies or errors, please contact the repo owner. 
 
