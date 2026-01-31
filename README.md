@@ -1,12 +1,12 @@
 ## Siglarium: Text Critical Apparatus Sigla Lookup
 
-An open-source digital humanities tool for searching and interpreting sigla used in major biblical critical apparatuses, including:
+Siglarium is an open-source digital humanities tool for searching and interpreting sigla used in major biblical critical apparatuses, including:
 
 - Nestle-Aland 28 (NA28)
 - Göttingen Septuagint
 - Biblia Hebraica Stuttgartensia (BHS)
 
-This tool supports:
+Siglarium supports:
 
 - Unified search across NA28, Göttingen, and BHS
 - Searches by siglum, meaning, keyword, or Unicode character
@@ -39,10 +39,10 @@ If you notice any inaccuracies or errors, please contact the repo owner.
 ## Citation, License, and Attribution
 
 
-This project may be cited when it plays a substantive role in research, teaching materials, or other scholarly workflows. If citation is appropriate, please use the metadata in `citation.cff`. GitHub can also automatically provide a citation format via the **“Cite this repository”** button.
+Siglarium may be cited when it plays a substantive role in research, teaching materials, or other scholarly workflows. If citation is appropriate, please use the metadata in `citation.cff`. GitHub can also automatically provide a citation format via the **“Cite this repository”** button.
 
 
-This project is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). Reuse, modification, and redistribution are permitted with attribution, which should include:
+Siglarium is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). Reuse, modification, and redistribution are permitted with attribution, which should include:
 
 - Author name: **Nina Maksimova**
 - Project title: **Siglarium: Text Critical Apparatus Sigla Lookup**
