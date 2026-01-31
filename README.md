@@ -39,16 +39,10 @@ If you notice any inaccuracies or errors, please contact the repo owner.
 ## Citation, License, and Attribution
 
 
-This project may be cited when it plays a substantive role in research, teaching materials, digital editions, or scholarly workflows. If citation is appropriate, please use the metadata in `citation.cff`.
+This project may be cited when it plays a substantive role in research, teaching materials, or other scholarly workflows. If citation is appropriate, please use the metadata in `citation.cff`. GitHub can also automatically provide a citation format via the **“Cite this repository”** button.
 
 
-GitHub automatically provides a citation format via the **“Cite this repository”** button.
-
-
-This project is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
-
-
-Reuse, modification, and redistribution are permitted with attribution, which should include:
+This project is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). Reuse, modification, and redistribution are permitted with attribution, which should include:
 
 - Author name: **Nina Maksimova**
 - Project title: **Text Critical Apparatus Sigla Lookup**
